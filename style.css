@@ -1,0 +1,477 @@
+*{margin: 0;padding: 0;}
+
+
+
+
+
+
+
+body{
+    background: #F7F9FB;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hr{
+    height: 1px;
+    background: #f4f4f4;
+}
+
+/* =================================================
+                1.header start
+==================================================== */
+
+.header{
+    background: #fff;
+    padding: 17px 0;
+    margin-bottom: 40px;
+}
+
+/* =================================================
+                1.header end
+==================================================== */
+
+
+
+
+
+
+
+/* =================================================
+                2.profile start
+==================================================== */
+
+.profile .profile-cover-wrap {
+    background: url("images/cover-img.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 124px;
+}
+
+.profile .profile-cover-wrap .edit-profile {
+    background: #fff;
+    padding: 13px 40px 9px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    color: #181818;
+}
+
+.profile .profile-cover-wrap .edit-profile i{
+    padding-right: 15px;
+}
+
+.profile .profile-info {
+    background: #fff;
+    padding-top: 26px;
+    padding-bottom: 35px;
+    padding-left: 25px;
+}
+
+.profile .profile-info .profile-photo img {
+    margin-top: -55px;
+}
+
+.profile .profile-info .profile-details .profile-name h4 {
+    margin-right: 28px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #181818;
+}
+
+.profile .profile-info .profile-details .profile-name i {
+    color: #D8C281;
+}
+
+.profile .profile-info .profile-details .location p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #181818;
+    
+}
+
+.profile .profile-info .profile-details .location i {
+    color: #0275B1;
+    margin-right: 8px;
+}
+
+.profile .profile-info .profile-details > p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+    margin-bottom: 14px;
+    margin-top: 13px;
+}
+
+.profile .profile-info .profile-details > a {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 9px 45px;
+    border-radius: 5px;
+    color: #fff;
+    background: #0077B5;
+    text-decoration: none;
+}
+
+/* =================================================
+                2.profile end
+==================================================== */
+
+
+
+
+
+
+
+
+/* =================================================
+                3.profile nav start
+==================================================== */
+
+.profile-nav .profile-nav-wrap {
+    border-bottom: 1px solid #ddd;
+    margin-top: 71px;
+    margin-bottom: 31px;
+}
+
+.profile-nav .profile-nav-wrap ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.profile-nav .profile-nav-wrap ul li{
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 240px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(1){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(1):hover{
+    border-radius: 5px 5px 0 0;
+    height: 55px;
+    background: #0077B5;
+    
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(1):hover a {
+    color: #fff;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(2){
+    position: absolute;
+    left: calc(100% - 616px);
+    bottom: 0;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(2):hover{
+    border-radius: 5px 5px 0 0;
+    height: 55px;
+    background: #0077B5;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(2):hover a {
+    color: #fff;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(3){
+    position: absolute;
+    left: calc(100% - 376px);
+    bottom: 0;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(3):hover{
+    border-radius: 5px 5px 0 0;
+    height: 55px;
+    background: #0077B5;
+}
+
+.profile-nav .profile-nav-wrap ul li:nth-child(3):hover a {
+    color: #fff;
+}
+
+.profile-nav .profile-nav-wrap ul li:first-child{
+    border-radius: 5px 0 0 0;
+
+}
+
+.profile-nav .profile-nav-wrap ul li:last-child{
+    border-radius: 0 5px 0 0;
+}
+
+.profile-nav .profile-nav-wrap ul li a {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* =================================================
+                3.profile nav end
+==================================================== */
+
+
+
+
+
+
+
+
+/* =================================================
+                4.about start
+==================================================== */
+
+.about {
+    margin-bottom: 20px;
+}
+
+.about .about-wrap {
+    background: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 32px;
+}
+
+.about .about-wrap h4{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.about .about-wrap p{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.about .about-wrap a{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #0275B1;
+    text-transform: uppercase;
+}
+
+/* =================================================
+                4.about end
+==================================================== */
+
+
+
+
+
+
+/* =================================================
+                5.projects start
+==================================================== */
+
+.projects {
+    margin-bottom: 39px;
+}
+
+.projects .projects-wrap{
+    background: #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 123px;
+}
+
+.projects .projects-wrap h4{
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.projects .projects-wrap h4 span{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #747474;
+    margin-left: 22px;
+}
+
+/* =================================================
+                5.projects end
+==================================================== */
+
+
+
+
+
+
+
+
+/* =================================================
+                6.experience start
+==================================================== */
+
+.experience {
+    margin-bottom: 39px;
+}
+
+.experience .experience-wrap {
+    background: #fff;
+    padding: 30px;
+}
+
+.experience .experience-wrap h4 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.experience .experience-wrap .box-1{
+    margin-bottom: 25px;
+}
+
+.experience .experience-wrap .box-2{
+    margin-top: 20px;
+}
+
+.experience .experience-wrap .experience-box .experience-box-info h4 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.experience .experience-wrap .experience-box .experience-box-info .place-para {
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #181818;
+    margin-bottom: 5px;
+}
+
+.experience .experience-wrap .experience-box .experience-box-info .place-para span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #181818;
+    margin-left: 20px;
+}
+
+.experience .experience-wrap .experience-box .experience-box-info .date-para {
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.experience .experience-wrap .experience-box .experience-box-info .date-para span{
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #0275B1;
+    margin-left: 23px;
+}
+
+.experience .experience-wrap .experience-box .experience-box-info .details-para {
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #181818;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+
+/* =================================================
+                6.experience end
+==================================================== */
+
+
+
+
+
+
+
+/* =================================================
+                6.experience end
+==================================================== */
+
+.education .education-wrap{
+    background: #fff;
+    padding: 30px;
+}
+
+.education .education-wrap h4 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.education .education-wrap .education-box .education-box-info h4 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.education .education-wrap .education-box .education-box-info .place-para {
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #181818;
+    margin-bottom: 5px;
+}
+
+.education .education-wrap .education-box .education-box-info .date-para {
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.education .education-wrap .education-box .education-box-info .details-para {
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #181818;
+    line-height: 150%;
+    margin-bottom: 0;
+}
+
+/* =================================================
+                6.experience end
+==================================================== */
